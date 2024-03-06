@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -I..\..\..\workspace\bluetooth_driving robot\cmsis_boot -I..\..\..\workspace\bluetooth_driving robot -I..\..\..\workspace -I..\..\..\workspace\bluetooth_driving robot\cmsis">
+      <target file="system_stm32f4xx.o" lastModified="18de68aa458">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="18de11e8c00"/>
+      </target>
+      <target file="printf.o" lastModified="18de68aa2a2">
+         <source file="..\..\..\stdio\printf.c" lastModified="18de11f1ab5"/>
+      </target>
+      <target file="main.o" lastModified="18e14fffcdf">
+         <source file="..\..\..\main.c" lastModified="18e14fff99b"/>
+      </target>
+      <target file="syscalls.o" lastModified="18de68aa64c">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="18de11df54d"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="18de68a9e1e">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="18de11e8b80"/>
+      </target>
+   </processor>
+</history>

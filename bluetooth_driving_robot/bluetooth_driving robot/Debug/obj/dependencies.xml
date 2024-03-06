@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\workspace\bluetooth_driving robot\cmsis_boot /I..\..\..\workspace\bluetooth_driving robot /I..\..\..\workspace /I..\..\..\workspace\bluetooth_driving robot\cmsis">
+      <source file="..\..\..\stdio\printf.c" lastModified="18de11f2285">
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="18de11e47d2">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="18de11e47d8">
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="18de11e04ed">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="18de11e8b80">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="18de11e43d9">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="18de11e8c1d">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="18de11e8c00">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="18de11e47ce">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="18de11eed7e">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="18de11e8f9d">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+   </includePath>
+</dependencies>

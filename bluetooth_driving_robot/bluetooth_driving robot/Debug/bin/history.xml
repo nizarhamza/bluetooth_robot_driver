@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=bluetooth_driving robot.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\bluetooth_driving robot -TC:\CooCox\CoIDE\configuration\ProgramData\bluetooth_driving robot/arm-gcc-link.ld -g">
+      <target file="bluetooth_driving robot.elf" lastModified="18e14ffff15">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="18de68a9e1e"/>
+         <source file="..\obj\main.o" lastModified="18e14fffcdf"/>
+         <source file="..\obj\printf.o" lastModified="18de68aa2a2"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="18de68aa458"/>
+         <source file="..\obj\syscalls.o" lastModified="18de68aa64c"/>
+      </target>
+   </processor>
+</history>
